@@ -1,4 +1,3 @@
-// server.js
 const express = require('express');
 const nodemailer = require('nodemailer');
 const path = require('path');
@@ -116,5 +115,3 @@ app.listen(PORT, HOST, () => {
     from: MAIL_FROM
   });
 });
-
-// ===================================
